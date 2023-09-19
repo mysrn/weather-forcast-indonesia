@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <div class="container-fluid">
+    <div class="container-fluid"
+      data-aos="fade-up">
       <a class="navbar-brand" href="#">Ramalan Cuaca Wilayah Indonesia</a>
       <form class="d-flex" role="search">
         <input class="form-control me-2" 
@@ -106,6 +107,7 @@
 </template>
 
 <script>
+  import AOS from "aos"
   export default{
     data() {
       return {
@@ -116,6 +118,7 @@
     },
     mounted() {
       this.getWeather()
+      AOS.init()
     },
     methods: {
       getWeather(){

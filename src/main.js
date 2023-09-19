@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import "bootstrap/dist/js/bootstrap.js"
 import {createRouter, createWebHistory} from 'vue-router'
 import Home from './components/Home.vue'
+import 'aos/dist/aos.css'
 
 const app = createApp(App)
 
