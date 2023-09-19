@@ -13,7 +13,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: '/',
+      path: '/weather-forcast-indonesia',
       name: 'Home',
       component: Home
     },
