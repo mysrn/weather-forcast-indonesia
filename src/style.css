@@ -1,0 +1,13 @@
+body {
+    all: initial;
+}
+
+[theme="custom-dark"] {
+    background: #16171d;
+    color: #fff;
+}
+
+[theme="custom-dark"] .card {
+    background: #16171d;
+    color: #fff;
+}
